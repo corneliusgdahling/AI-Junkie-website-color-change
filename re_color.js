@@ -17,6 +17,9 @@ for (i = 0; i < document.getElementsByTagName('h3').length; i++) {
 for (i = 0; i < document.getElementsByTagName('font').length; i++) {
 	document.getElementsByTagName('font')[i].style.color = "black";
 }
+for (i = 0; i < document.getElementsByTagName('span').length; i++) {
+        document.getElementsByTagName('span')[i].style.color = "black";
+}
 for (i = 0; i < document.getElementsByTagName('table').length; i++) {
 	document.getElementsByTagName('table')[i].style.color = "#FFFFCC";
 	document.getElementsByTagName('table')[i].style.backgroundColor = "#FFFFCC";
