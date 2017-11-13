@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "AI Junkie better colors",
+  "short_name": "NTR!",
+  "description": "Changes color of text, tables and background on all ai-junkie pages.",
+  "version": "1.0",
+  "content_scripts" : [{"matches" : ["*://www.ai-junkie.com/*"],
+  "js" : ["re_color.js"]
+  }]
+
+}
